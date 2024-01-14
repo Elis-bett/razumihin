@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Вразумихин Дмитрий Прокофьич</title>
+  </head>
+
+  <body>
+    <div class="header">
+        <h1>ВК СПб</h1>
+      </div>
+    <figure>
+        <img src="portret.jpg" width="250" height="250" title="Вразумихин Дмитрий Прокофьич">
+    </figure>
+    <h1>Вразумихин Дмитрий Прокофьич</h1>
+    <p><strong>г. Санкт-Петербург</strong> </p>
+    <ul>
+         <li>происхождение: дворянин</li>
+         <li>бывший студент Петербургского университета</li>
+        </ul>
+    
+    <p>У вас открытый профиль</p>
+    <div class="clear"></div>
+    <div style="text-align: center;">
+    <table style="display: inline-block;">
+        <tr>
+          <th>Друзья 736</th>
+          <th>Черный список 0</th> 
+          <th>Подписки 124</th>
+        </tr>
+        <tr>
+          <td>Авдотья Р.</td>
+          <td>Вы пока сюда</td> 
+          <td>Работа Санкт-Петербург</td>
+        </tr>
+        <tr>
+          <td>Родион Р.</td>
+          <td>никого не добавили </td>
+          <td>Рецепты супов</td> 
+        </tr>
+        <tr>
+            <td>Порфирий</td>
+            <td> </td>
+            <td>Жилье Санкт-Петербург</td> 
+        </tr>
+        <tr>
+            <td>д. Зосимов</td>
+            <td> </td>
+            <td>Петербургский университет</td> 
+        </tr>
+        <tr>
+            <td>Пульхерия Р.</td>
+            <td> </td>
+            <td>Немецкая грамматика</td> 
+        </tr>
+        <tr>
+            <td>Прасковья З.</td>
+            <td> </td>
+            <td>Аренда площади СПб</td> 
+        </tr>
+      </table>
+    </div>
+    <div class="row">
+        <div class="leftcolumn">
+          <div class="card">
+            <h2>Дмитрий Вразумихин</h2>
+            <p>ПЕРЕВОД ТЕКСТОВ</p>
+            <p>3 ЕВРОПЕЙСКИХ ЯЗЫКА</p>
+            <p>Подробности, стоимость уточнять в лс</p>
+            <img src="translate.jpg" >
+            <h5>1865 г.</h5>
+          </div>
+          <div class="card">
+            <h2>Дмитрий Вразумихин</h2>
+            <p>Чтобы сделать в свете карьеру достаточно, по-моему, всегда сезон наблюдать; если в январе спаржи не потребуешь, то несколько целковых в кошельке сохранишь...</p>
+            <img src="money.jpg" >
+            <h5>1865 г.</h5>
+          </div>
+          <div class="card">
+            <h2>Дмитрий Вразумихин</h2>
+            <p>Заведется у вас страданьице - выс ним как курица с яйцом носитесь!</p>
+            <h5>1865 г.</h5>
+          </div>
+          <div class="card">
+            <h2>Дмитрий Вразумихин</h2>
+            <p>Я вот, изволь видеть, Вразумихин; не Разумихин, как меня все величают, а Вразумихин</p>
+            <img src="razumihin.jpg" >
+            <h5>1865 г.</h5>
+          </div>
+          <div class="card">
+            <h2>Дмитрий Вразумихин</h2>
+            <p>Всё ему некогда, всё ему мешают, а сам лежит и ничего не делает</p>
+            <img src="rr.jpg" width="640" height="480">
+            <h5>1865 г.</h5>
+          </div>
+          <div class="card">
+            <h2>Дмитрий Вразумихин</h2>
+            <p>Головной убор это самая первейшая вещь в костюме, своего рода рекомендация</p>
+            <img src="shlyapa.jpg" width="740" height="480">
+            <h5>1865 г.</h5>
+          </div>
+        </div>
+        <div class="rightcolumn">
+          <div class="card">
+            <h2>Сообщения</h2>
+            <img src="ava.png" width="40" height="40" float: left>
+            <p>Отправляю Вам перевод</p>
+            <img src="rodya.jpg" width="40" height="40" float: left>
+            <p>Неужель ты не видишь, что я не хочу твоих благодеяний?</p>
+          </div>
+        </div>
+      </div>
+        
+  </body>
+</html>
+
+<style>
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700,900|Roboto:400,700,900&display=swap&subset=cyrillic");
+h1, h2, h3{
+  font-family: "Montserrat", "Roboto", sans-serif;
+  margin-top: 1.5em;
+}
+
+body{
+    margin:auto;
+    font-family: Arial;
+    padding: 10px;
+    background: url(fon.jpg ) 100% 100%;
+}
+.header {
+  padding: 30px;
+  text-align: center;
+  background: #5F9EA0;
+}
+h1{
+    font-size: 32px;
+}
+.leftcolumn {   
+  float: left;
+  width: 70%;
+}
+
+.rightcolumn {
+  float: right;
+  width: 23%;
+  background-color: #f1f1f1;
+
+}
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+table,
+th,
+tr,
+td {
+    float: none;
+    margin: 5px 20px;
+}
+
+figure {
+    float: left;
+
+}
+.clear {
+  clear: both;
+}
+</style>
